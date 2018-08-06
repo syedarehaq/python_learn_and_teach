@@ -19,9 +19,10 @@
 
 ## Lets first try looping a list
 # http://htmlpreview.github.io/?https://github.com/jerry-git/learn-python3/blob/master/notebooks/beginner/html/for_loops.html
-# then try break, continue, enumerate
+# then try break, continue, 
 
 ## Now use range to create a list (need to have the concept of casting something to a list)
+## list enumerate
 ## then print those numbers iterating through that list
 ## print numbers 0,10
 ## print numbers 1,10

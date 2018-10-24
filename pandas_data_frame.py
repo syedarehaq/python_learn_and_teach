@@ -14,3 +14,11 @@ multiple_condition = df[(df['one'] < 3) & (df['two'] == 'y')]
 
 ## filtering based on being in a list
 single_condition_df = df[df['one'].isin([2,3])]
+
+## Only keep specific columns from the dataframe
+df_to_write = df[["country_id","state_id","Sh2Eh"]]
+#https://stackoverflow.com/questions/11285613/selecting-multiple-columns-in-a-pandas-dataframe
+
+## Create a dictionary from a dataframe:
+df.set_index(KEY).to_dict()[VALUE]
+# https://stackoverflow.com/questions/17426292/what-is-the-most-efficient-way-to-create-a-dictionary-of-two-pandas-dataframe-co
